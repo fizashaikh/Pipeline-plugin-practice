@@ -1,0 +1,4 @@
+stage name: 'Greeting stage'
+node('ci-slave') {
+    echo 'Hello from test-service'
+}
